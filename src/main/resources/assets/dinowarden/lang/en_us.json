@@ -1,0 +1,11 @@
+{
+  "entity.dinowarden.dino_warden": "Dino Warden",
+  "item.dinowarden.dino_warden_spawn_egg": "Dino Warden Spawn Egg",
+  "subtitles.dinowarden.roar": "Dino Warden roars",
+  "subtitles.dinowarden.bellow": "Dino Warden bellows",
+  "subtitles.dinowarden.step": "Dino Warden steps",
+  "subtitles.dinowarden.hurt": "Dino Warden hurts",
+  "subtitles.dinowarden.death": "Dino Warden dies",
+  "subtitles.dinowarden.ambient": "Dino Warden growls",
+  "subtitles.dinowarden.bite": "Dino Warden bites"
+}

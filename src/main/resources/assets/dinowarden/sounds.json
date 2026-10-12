@@ -1,0 +1,9 @@
+{
+  "entity.dino_warden.roar":    { "category": "hostile", "subtitle": "subtitles.dinowarden.roar",    "sounds": [ { "name": "dinowarden:roar",    "stream": false } ] },
+  "entity.dino_warden.bellow":  { "category": "hostile", "subtitle": "subtitles.dinowarden.bellow",  "sounds": [ { "name": "dinowarden:bellow",  "stream": false } ] },
+  "entity.dino_warden.step":    { "category": "hostile", "subtitle": "subtitles.dinowarden.step",    "sounds": [ { "name": "dinowarden:step" } ] },
+  "entity.dino_warden.hurt":    { "category": "hostile", "subtitle": "subtitles.dinowarden.hurt",    "sounds": [ { "name": "dinowarden:hurt" } ] },
+  "entity.dino_warden.death":   { "category": "hostile", "subtitle": "subtitles.dinowarden.death",   "sounds": [ { "name": "dinowarden:death" } ] },
+  "entity.dino_warden.ambient": { "category": "hostile", "subtitle": "subtitles.dinowarden.ambient", "sounds": [ { "name": "dinowarden:ambient" } ] },
+  "entity.dino_warden.bite":    { "category": "hostile", "subtitle": "subtitles.dinowarden.bite",    "sounds": [ { "name": "dinowarden:bite" } ] }
+}

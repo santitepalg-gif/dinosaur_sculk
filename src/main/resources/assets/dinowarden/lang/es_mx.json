@@ -1,0 +1,11 @@
+{
+  "entity.dinowarden.dino_warden": "Dino Warden",
+  "item.dinowarden.dino_warden_spawn_egg": "Huevo generador de Dino Warden",
+  "subtitles.dinowarden.roar": "El Dino Warden ruge",
+  "subtitles.dinowarden.bellow": "El Dino Warden bramea",
+  "subtitles.dinowarden.step": "El Dino Warden camina",
+  "subtitles.dinowarden.hurt": "El Dino Warden se queja",
+  "subtitles.dinowarden.death": "El Dino Warden muere",
+  "subtitles.dinowarden.ambient": "El Dino Warden gruñe",
+  "subtitles.dinowarden.bite": "El Dino Warden muerde"
+}

@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="dinowarden"
+version="1.0.0"
+displayName="Dino Warden"
+description='''
+Un dinosaurio tipo T-Rex hecho de sculk. Aparece al hacer sonar dos veces un chillador de sculk,
+el Warden no lo ataca, ruge lanzando un sonic boom, sabe nadar y te detecta por olfato, sonido o contacto.
+'''
+
+[[dependencies.dinowarden]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dinowarden]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dinowarden]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.4,)"
+ordering="AFTER"
+side="BOTH"
