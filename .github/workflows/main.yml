@@ -23,20 +23,17 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Revisar archivos
-        run: |
-          ls -la
-          find . -maxdepth 4 -type f | sort
+      - name: Preparar Gradle 8.1.1
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.1.1'
 
-      - name: Comprobar Gradle
-        run: |
-          if [ -f gradlew ]; then
-            chmod +x gradlew
-            ./gradlew build --no-daemon
-          elif [ -f gradlew.bat ]; then
-            echo "Existe gradlew.bat, pero falta el wrapper de Linux."
-            exit 1
-          else
-            echo "No existe gradlew. Hay que configurar Gradle Wrapper."
-            exit 1
-          fi
+      - name: Compilar mod
+        run: gradle build --no-daemon
+
+      - name: Guardar archivo JAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: dinosaur-sculk-1.20.1
+          path: build/libs/*.jar
+          if-no-files-found: error
